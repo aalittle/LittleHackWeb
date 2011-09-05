@@ -1,0 +1,106 @@
+
+<!DOCTYPE html> 
+<html lang="en"> 
+  	<head> 
+    	<meta charset="utf-8"> 
+    	<title>Little Hack</title> 
+		<meta charset="utf-8"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<title>jQuery Mobile: Demos and Documentation</title> 
+		<link rel="stylesheet" href="css/littlehack.css"/>
+		<link rel="stylesheet"  href="jquery/jquery.mobile-1.0b2.css" /> 
+		<link rel="stylesheet" href="docs/_assets/css/jqm-docs.css" /> 
+		<link rel="apple-touch-icon-precomposed" href="images/hacker_news_logo.png"/>
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<link rel="apple-touch-startup-image" href="images/Default.png">
+		<link rel="shortcut icon" href="favicon.png">
+		<link rel="icon" href="favicon.png">
+		<!--<link rel="stylesheet" href="http://twitter.github.com/bootstrap/assets/css/bootstrap-1.1.1.min.css">-->
+		<script src="http://code.jquery.com/jquery-1.6.2.min.js"></script> 
+		<script src="experiments/themeswitcher/jquery.mobile.themeswitcher.js"></script> 
+		<script src="docs/_assets/js/jqm-docs.js"></script> 
+		<script src="jquery/jquery.mobile-1.0b2.min.js"></script> 
+		
+		<script type="text/javascript" charset="utf-8" src="underscore.js"></script>
+		<script type="text/javascript" charset="utf-8" src="backbone.js"></script>
+		<script type="text/javascript" charset="utf-8" src="hackernews.json"></script>
+ 
+  	</head> 
+ 
+  	<body> 
+		
+		<!-- Start of main page: list view -->
+		<div data-role="page" id="list_view">
+		 	<div data-role="header" data-position="fixed" data-theme="i"> 
+				<a href="#info_view" data-transition="fade" data-icon="info" data-iconpos="notext">Info</a> 
+				<h1>Hacker News</h1> 
+				<a href="#config_view" data-transition="slideup" data-icon="gear" data-theme="i" data-iconpos="notext">Config</a> 
+			</div>
+	
+			<ul data-role="listview" data-inset="true">
+				<li data-icon="false"><a href="http://phonnel.com/hnvote/index.php"> 
+					<h3>Steve Jobs Resigns as CEO of Apple</h3> 
+					
+					<p>1607 points by taylorbuley (via finance.yahoo.com) - posted 33 min ago</p> 
+					
+					</a>
+				</li> 
+				<li data-icon="false"><a href="#"> 
+					<h3>More</h3> 
+					</a>
+				</li> 
+			</ul>	 		
+		</div> 
+				
+		<!-- Start of second page: info view -->
+		<div data-role="page" id="info_view">
+
+			<div data-role="content">	
+
+				<img src="images/andrew_scenic.png" alt="Andrew" />
+
+				<a class="block-right" href="#list_view" data-transition="fade" data-role="button" data-inline="true">Back</a>	
+				<a class="block-right" href="index.html" data-role="button" data-inline="true">Email Me</a>
+				<a class="block-right" href="http://www.twitter.com/aalittle" data-role="button" data-inline="true">Follow Me</a>	
+				<a class="block-right" href="index.html" data-role="button" data-inline="true">Credits</a>
+			</div><!-- /content -->		
+
+		</div><!-- /page -->
+		
+		<!-- Start of config page: config view -->
+		<div data-role="page" id="config_view">
+		 	<div data-role="header" data-position="fixed" data-theme="i"> 
+				<a href="#list_view" data-transition="slidedown">Cancel</a> 
+				<h1>Configure Search</h1> 
+				<a href="#list_view" data-transition="slidedown" data-theme="i">Save</a> 
+			</div>
+	
+			<div data-role="fieldcontain">
+				<center><label for="slider">How Fresh</label></center>
+			 	<center><input type="range" name="fresh" id="slider" value="500" min="100" max="900"  /></center>
+			</div>
+			
+			<div data-role="fieldcontain">
+				<center><label for="slider"># of Points</label></center>
+			 	<center><input type="range" name="points" id="slider" value="30" min="0" max="150"  /></center>
+			</div>
+			
+			<div data-role="fieldcontain">
+				<center><label for="slider"># of Comments</label></center>
+			 	<center><input type="range" name="comments" id="slider" value="15" min="0" max="150"  /></center>
+			</div>
+			
+			<div align="center" data-role="footer" data-theme="i" data-position="fixed"> 
+				<p></p>
+				<a href="#">Restore Defaults</a>
+				<p></p>
+			</div>
+	 		
+		</div>
+		
+  	</body> 
+ 
+  	<footer> 
+	</footer> 
+	
+</html>

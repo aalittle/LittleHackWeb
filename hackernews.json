@@ -1,0 +1,267 @@
+$HACKERNEWS_JSON = [{
+    "facet_results": {
+        "fields": {},
+        "queries": {}
+    },
+    "hits": 49626,
+    "request": {
+        "boosts": {
+            "fields": {
+                "num_comments": 0.14999999999999999,
+                "points": 0.14999999999999999
+            },
+            "filters": {},
+            "functions": {
+                "pow(2,div(div(ms(create_ts,NOW),3600000),72))": 200.0
+            }
+        },
+        "facet": {
+            "fields": {},
+            "queries": []
+        },
+        "filter": {
+            "fields": {},
+            "queries": []
+        },
+        "highlight": {
+            "fragments": {
+                "include": false,
+                "markup_text": false,
+                "maxchars": 100
+            },
+            "include_matches": false,
+            "markup_items": false
+        },
+        "limit": 10,
+        "q": "facebook",
+        "sortby": "score desc",
+        "start": 0,
+        "stats": {},
+        "weights": {
+            "discussion.sigid": 1.0,
+            "domain": 2.0,
+            "parent_sigid": 1.0,
+            "text": 0.69999999999999996,
+            "title": 1.1000000000000001,
+            "type": 0.0,
+            "url": 1.0,
+            "username": 0.10000000000000001
+        }
+    },
+    "results": [
+        {
+            "item": {
+                "_id": "2957119-39e6c",
+                "cache_ts": "2011-09-04T13:57:38Z",
+                "create_ts": "2011-09-03T12:07:47Z",
+                "discussion": null,
+                "domain": "jwz.org",
+                "id": 2957119,
+                "num_comments": 100,
+                "parent_id": null,
+                "parent_sigid": null,
+                "points": 311,
+                "text": null,
+                "title": "Facebook doesn't like privacy countermeasures",
+                "type": "submission",
+                "url": "http://www.jwz.org/blog/2011/09/surprise-facebook-doesnt-like-privacy-countermeasures/",
+                "username": "xentronium"
+            },
+            "score": 1.0999338999999999
+        },
+        {
+            "item": {
+                "_id": "2960392-ad73b",
+                "cache_ts": "2011-09-05T01:22:59Z",
+                "create_ts": "2011-09-04T21:47:06Z",
+                "discussion": null,
+                "domain": "ontwik.com",
+                "id": 2960392,
+                "num_comments": 0,
+                "parent_id": null,
+                "parent_sigid": null,
+                "points": 1,
+                "text": null,
+                "title": "[video] Lessons Of Scale At Facebook",
+                "type": "submission",
+                "url": "http://ontwik.com/php/lessons-of-scale-at-facebook/",
+                "username": "ahmicro"
+            },
+            "score": 1.0752069
+        },
+        {
+            "item": {
+                "_id": "2960509-a7e6b",
+                "cache_ts": "2011-09-05T01:12:39Z",
+                "create_ts": "2011-09-04T22:59:09Z",
+                "discussion": null,
+                "domain": "zdnet.com",
+                "id": 2960509,
+                "num_comments": 0,
+                "parent_id": null,
+                "parent_sigid": null,
+                "points": 1,
+                "text": null,
+                "title": "VMware CEO: Facebook will also have to face a patent war soon",
+                "type": "submission",
+                "url": "http://www.zdnet.com/blog/facebook/vmware-ceo-facebook-will-also-have-to-fight-a-patent-war-soon/3258",
+                "username": "grellas"
+            },
+            "score": 1.0408664999999999
+        },
+        {
+            "item": {
+                "_id": "2960289-2b2df",
+                "cache_ts": "2011-09-05T01:22:59Z",
+                "create_ts": "2011-09-04T20:41:33Z",
+                "discussion": null,
+                "domain": "zdnet.com",
+                "id": 2960289,
+                "num_comments": 0,
+                "parent_id": null,
+                "parent_sigid": null,
+                "points": 1,
+                "text": null,
+                "title": "September 2011: The Definitive Facebook Lockdown Guide | ZDNet",
+                "type": "submission",
+                "url": "http://www.zdnet.com/blog/igeneration/september-2011-the-definitive-facebook-lockdown-guide/12641",
+                "username": "CallMeV"
+            },
+            "score": 1.0349492
+        },
+        {
+            "item": {
+                "_id": "2959792-44f62",
+                "cache_ts": "2011-09-05T01:22:59Z",
+                "create_ts": "2011-09-04T17:13:54Z",
+                "discussion": null,
+                "domain": "keithposehn.net",
+                "id": 2959792,
+                "num_comments": 0,
+                "parent_id": null,
+                "parent_sigid": null,
+                "points": 1,
+                "text": null,
+                "title": "Facebook vs. Privacy: The Motivations of Both Sides",
+                "type": "submission",
+                "url": "http://keithposehn.net/post/9794616699/facebook-vs-privacy-the-motivations-of-both-sides",
+                "username": "kposehn"
+            },
+            "score": 1.0040365
+        },
+        {
+            "item": {
+                "_id": "2959483-b2ca7",
+                "cache_ts": "2011-09-05T01:22:59Z",
+                "create_ts": "2011-09-04T14:58:23Z",
+                "discussion": null,
+                "domain": "live.drjays.com",
+                "id": 2959483,
+                "num_comments": 0,
+                "parent_id": null,
+                "parent_sigid": null,
+                "points": 1,
+                "text": null,
+                "title": "Is StumbleUpon More Important Than Facebook?",
+                "type": "submission",
+                "url": "http://live.drjays.com/index.php/2011/09/03/is-stumbleupon-more-important-than-facebook/",
+                "username": "japanesesandman"
+            },
+            "score": 0.99955240000000001
+        },
+        {
+            "item": {
+                "_id": "2960484-1361f",
+                "cache_ts": "2011-09-05T01:12:39Z",
+                "create_ts": "2011-09-04T22:43:39Z",
+                "discussion": {
+                    "id": 2960290,
+                    "sigid": "2960290-6c4e3",
+                    "title": "Extracting Meaning from Millions of Pages"
+                },
+                "domain": null,
+                "id": 2960484,
+                "num_comments": 0,
+                "parent_id": 2960290,
+                "parent_sigid": "2960290-6c4e3",
+                "points": 1,
+                "text": "From the article - \n\"For example, to find the names of people who are CEOs within millions of documents, you'd first need to train the software with other examples, such as \"Steve Jobs is CEO of Apple, Sheryl Sandberg is CEO of Facebook.\" \"<p>Sheryl Sandberg? Deliberate or honest mistake? :-]",
+                "title": null,
+                "type": "comment",
+                "url": null,
+                "username": "acak"
+            },
+            "score": 0.97722810000000004
+        },
+        {
+            "item": {
+                "_id": "2960462-240dc",
+                "cache_ts": "2011-09-05T01:12:39Z",
+                "create_ts": "2011-09-04T22:29:17Z",
+                "discussion": {
+                    "id": 2959137,
+                    "sigid": "2959137-92f3e",
+                    "title": "My job is to watch dreams die"
+                },
+                "domain": null,
+                "id": 2960462,
+                "num_comments": 0,
+                "parent_id": 2960352,
+                "parent_sigid": "2960352-05a1a",
+                "points": 1,
+                "text": "Your reddit experience is as good as the sub-reddits you follow.<p>Subscribe to sub-reddits of your interest and you will only see stories from those sub-reddits on your front page. Stick with the default options and you only see the top stories from default selected sub-reddits.<p>In a way its like twitter and facebook, the quality of tweets and wall posts you will see are only as good as the people you decide to follow.",
+                "title": null,
+                "type": "comment",
+                "url": null,
+                "username": "pavs"
+            },
+            "score": 0.97211987
+        },
+        {
+            "item": {
+                "_id": "2960464-64bc1",
+                "cache_ts": "2011-09-05T01:12:39Z",
+                "create_ts": "2011-09-04T22:29:42Z",
+                "discussion": {
+                    "id": 2959604,
+                    "sigid": "2959604-6cefc",
+                    "title": "Lone Yelp review dogs business owner"
+                },
+                "domain": null,
+                "id": 2960464,
+                "num_comments": 0,
+                "parent_id": 2959929,
+                "parent_sigid": "2959929-a70fe",
+                "points": 1,
+                "text": "Following you 100% on this vision.<p>There's been a lot of hype around social recommendation lately; it was fresh and new because only [somewhat] lately has 'Social' itself been made possible through Facebook.<p>But as I see things, we don't make friends because they have our tastes or because they can correctly recommend us stuff we'd like; we simply feel really good with friends, no matter what they like.\nOnly the people who have our tastes can help us finding what we should like, or at least be able to do it better than most of our friends.<p>Basing recommendation solely on our social circle's tastes is like thinking our friends are the ones with the closest tastes to ours. And I think that's wrong.<p>Unless I got it wrong, Rex.ly for example, is taking a much better approach by letting you select specific friends to influence your recommendations.",
+                "title": null,
+                "type": "comment",
+                "url": null,
+                "username": "Guillaumedm"
+            },
+            "score": 0.96784429999999999
+        },
+        {
+            "item": {
+                "_id": "2960344-573e9",
+                "cache_ts": "2011-09-05T01:22:59Z",
+                "create_ts": "2011-09-04T21:14:54Z",
+                "discussion": null,
+                "domain": null,
+                "id": 2960344,
+                "num_comments": 3,
+                "parent_id": null,
+                "parent_sigid": null,
+                "points": 4,
+                "text": "I write small, useful web applications, and I'm beginning to dabble in Android development as well. The catch: I'm in high school.<p>I want to use my skills to start generating some revenue - at least enough to cover the cost of a VPS to host these projects - but there is not a single advertising service, credit card processor, or \"app store\" that will knowingly do business with a minor.<p>My parents could theoretically open accounts for me, but then do they need to be the ones clicking buttons? Do I have to stand over their shoulders and tell them what to click, or can they hand over the password? Would this violate \"non-transferable\" clauses?<p>I understand that I should be focusing on improving my skills, living my life, etc. I am. I'm not trying to get $10m from a VC and build an empire like Facebook. I just want to cover costs and make a little money from things I've made for myself which I believe other people will find useful.<p>Any ideas are welcome. This seems like the kind of place where I'll find someone who is/was in the same boat.",
+                "title": "Ask HN: Is there any legal way for a young developer to make money?",
+                "type": "submission",
+                "url": null,
+                "username": "superuser2"
+            },
+            "score": 0.96083739999999995
+        }
+    ],
+    "time": 0.086591005325317383,
+    "warnings": []
+}];
